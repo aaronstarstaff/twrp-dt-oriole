@@ -1,1 +1,1 @@
-# twrp-dt-oriole
+TWRP device tree for Pixel 6 (oriole)
