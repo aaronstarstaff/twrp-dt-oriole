@@ -49,7 +49,7 @@ export TARGET_ARCH="arm64-v8a"
 export TWRP_BUILD_DEVICE="Pixel6"
 export ALLOW_MISSING_DEPENDENCIES=true
 export TARGET_DEVICE_ALT="Pixel6, GooglePixel6, oriole, oriole"
-export FOX_TARGET_DEVICES="Pixel6, GooglePixel6, oriole, oriole"
+export TWRP_TARGET_DEVICES="Pixel6, GooglePixel6, oriole, oriole"
 export BUILD_USERNAME="nobody"
 export BUILD_HOSTNAME="android-build"
 
