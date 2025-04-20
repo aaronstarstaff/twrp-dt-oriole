@@ -84,6 +84,3 @@ export OF_SKIP_FBE_DECRYPTION=1
 # Run a process after formatting data to work-around MTP issues
 export OF_RUN_POST_FORMAT_PROCESS=1
 
-# Magisk
-export TWRP_USE_SPECIFIC_MAGISK_ZIP=~/Magisk/Magisk-v28.1.zip
-
