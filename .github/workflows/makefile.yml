@@ -1,3 +1,5 @@
+name: TWRP Recovery Builder 2024
+
 on:
   workflow_dispatch:
     inputs:
@@ -63,10 +65,11 @@ jobs:
     - name: Check Out
       uses: actions/checkout@v3
       
-    - name: Display Input
-
+    - name: Display Inputs
+      run: |
         echo "::group::User Environment Variables"
         echo "Displaying variables/inputs."
+        echo "Manifest Branch: ${{ github.event.inputs.MANIFEST_BRANCH }}"
         echo "Device Tree: ${{ github.event.inputs.DEVICE_TREE }}"
         echo "Device Branch: ${{ github.event.inputs.DEVICE_TREE_BRANCH }}"
         echo "Device Path: ${{ github.event.inputs.DEVICE_PATH }}"
