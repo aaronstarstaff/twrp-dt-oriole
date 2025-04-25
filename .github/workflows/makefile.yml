@@ -63,21 +63,8 @@ jobs:
     - name: Check Out
       uses: actions/checkout@v3
       
-    - name: Display Inputs
-  build:
-    name: Build TWRP by ${{ github.actor }}
-    runs-on: ubuntu-24.04
-    if: github.event.repository.owner.id == github.event.sender.id
-    env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    permissions:
-      contents: write
-    steps:
-    - name: Check Out
-      uses: actions/checkout@v3
-      
-    - name: Display Inputs
-      run: |
+    - name: Display Input
+
         echo "::group::User Environment Variables"
         echo "Displaying variables/inputs."
         echo "Manifest Branch: ${{ github.event.inputs.MANIFEST_BRANCH }}"
