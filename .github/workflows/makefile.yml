@@ -64,7 +64,6 @@ jobs:
       uses: actions/checkout@v3
       
     - name: Display Inputs
-jobs:
   build:
     name: Build TWRP by ${{ github.actor }}
     runs-on: ubuntu-24.04
